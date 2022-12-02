@@ -7,4 +7,4 @@ console.log(encryptedData.toString("hex"));
 
 const decryptedData = privateDecrypt(privateKey, encryptedData);
 
-console.log(decryptedData.toString("utf-8"));
+console.log(decryptedData.toString("utf8"));

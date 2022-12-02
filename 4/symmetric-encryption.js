@@ -20,5 +20,5 @@ console.log(`Encrypted: ${encryptedMessage}`);
 
 const decipher = createDecipheriv(ALGORITHM, key, iv);
 const decryptedMessage =
-  decipher.update(encryptedMessage, "hex", "utf-8") + decipher.final("utf8");
-console.log(`Deciphered: ${decryptedMessage.toString("utf-8")}`);
+  decipher.update(encryptedMessage, "hex", "utf8") + decipher.final("utf8");
+console.log(`Deciphered: ${decryptedMessage.toString("utf8")}`);
